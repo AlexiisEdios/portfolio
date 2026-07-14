@@ -122,7 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         const data = new FormData(contactForm);
         data.append('form-name', 'contact');
-        await fetch('/', { method: 'POST', body: new URLSearchParams(data) });
+        const res = await fetch('/', { method: 'POST', body: new URLSearchParams(data) });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         btn.innerHTML = '<i class="fas fa-check-circle"></i> Message sent!';
         btn.style.background = 'var(--green)';
         setTimeout(() => {
