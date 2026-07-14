@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
-  }
+  });
 
   // === Contact Form (Netlify AJAX) ===
   const contactForm = document.getElementById('contact-form');
