@@ -52,4 +52,6 @@ portfolio/
 
 ## License
 
-[MIT](LICENSE) — free to use, modify, and share. No attribution required.
+All rights reserved. © 2026 Tousif Khan. This portfolio is a personal brand asset and may not be copied, reproduced, or redistributed without permission.
+
+*Note: The SaaS landing page templates (NovaForge AI, NexusAPI, FlowForge, DataPulse, VaultEdge) sold on Gumroad/other marketplaces are licensed separately under MIT.*
