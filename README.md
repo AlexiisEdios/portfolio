@@ -52,4 +52,4 @@ portfolio/
 
 ## License
 
-MIT — free to use, modify, and share. No attribution required.
+[MIT](LICENSE) — free to use, modify, and share. No attribution required.
